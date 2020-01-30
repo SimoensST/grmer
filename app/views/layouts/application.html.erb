@@ -10,6 +10,46 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header class="row">
+      <div class="col-3">
+        <div class="circle">
+          <br />
+          Geek
+          <br />
+          Republic
+          <br />
+          Media
+        </div>
+      </div>
+      <div class="col-4 slogan">
+        Making The World A Nerdier Place Since 2017
+      </div>
+      <div class="col-5 links">
+        <%= link_to 'Videos', '#' %>
+        <%= link_to 'About', '#' %>
+      </div>
+    </header>
+
+    <hr />
+
+    <br class="clear" />
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 footer-blurb">
+        <%= link_to "Adventure Awaits", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Made by <a href="[https://github.com/SimoensST]">[Brett Simoens]</a><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
