@@ -58,6 +58,7 @@ group :development, :test do
 end
 
 gem 'simple_form'
+gem 'accuweather'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
