@@ -9,15 +9,15 @@
   font-weight: bold;
   position: relative;
   border-radius: 100%;
-  background: #000080;
+  background: transparent;
   border: 1px solid #F7F7F7;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   margin: 10px 10px;
   text-align: center;
   color: #FFF;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 20px;
+  line-height: 18px;
   cursor: pointer;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .links {
-  padding-top: 26px;
+  padding-top: 50px;
 }
 
 .links a {
@@ -40,8 +40,8 @@
 }
 
 header {
-  background: image-url('darkness.png');
-  border-top: 9px solid #222222;
+  background: image-url('castle.png') center no-repeat;
+  margin-top: -9px;
 }
 
 hr {
@@ -51,10 +51,11 @@ hr {
 h1 {
   font-family: 'Uncial Antiqua', cursive;
   color:#654321;
+  
 }
 
 h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Uncial Antiqua', cursive;
 }
 
 .next-quote {
